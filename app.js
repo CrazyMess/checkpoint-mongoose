@@ -78,5 +78,4 @@ const removePersonById = (id) =>{
     console.error('Error removing person: ',err);
   });
 };
-
-removePersonById("6710174a2dd0dea72b21ca7b");
+//removePersonById("6710174a2dd0dea72b21ca7b");
