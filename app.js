@@ -65,7 +65,7 @@ updateAge = (personName, personAge) => {
 };
 //updateAge("Zina",25);
 
-const removePersonById = (id) =>{
+ removePersonById = (id) =>{
   Person.findByIdAndDelete(personId)
   .then(deletedPerson =>{
     if(!deletedPerson){
